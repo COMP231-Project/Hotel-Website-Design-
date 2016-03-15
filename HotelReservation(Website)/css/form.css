@@ -1,5 +1,235 @@
-/*Templates manipulated by Faim and Maulik*/
+/*Insert stylesheet "style.css"?*/
+/*------------------------- Header -------------------------*/
+.header {
+  height:131px;
+  overflow:hidden;
+  position:relative;
+}
+.header a#logo {
+  left:0;
+  position:absolute;
+  top:0;
+}
+.header div {
+  float:right;
+  margin:0;
+  overflow:hidden;
+  width:816px;
+}
+.header div div:first-child {
+  background:none;
+  float:right;
+  height:auto;
+  padding:13px 48px 10px 0;
+  width:auto;
+}
+.header div div:first-child a {
+  color:#134067;
+  font-size:12px;
+  line-height:24px;
+  text-decoration:none;
+  text-shadow:0 1px 0 #fde9c3;
+}
+.header div div:first-child span {
+  color:#134067;
+  display:inline-block;
+  font-size:12px;
+  line-height:24px;
+  padding:0 8px;
+  text-shadow:0 1px 0 #fde9c3;
+}
+.header div div {
+  background:url(../images/bg-nav.png) no-repeat;
+  float:none;
+  height:63px;
+  overflow:hidden;
+}
+.header div div ul {
+  float:left;
+  list-style:none;
+  margin:0;
+  overflow:hidden;
+  padding:12px 0 0 60px;
+}
+.header div div ul li:first-child {
+  margin:0;
+}
+.header div div ul li {
+  float:left;
+  height:24px;
+  margin:0 0 0 12px;
+  padding:0 0 0 3px;
+}
+.header div div ul li.selected {
+  background:url(../images/bg-nav-left.jpg) no-repeat left top;
+}
+.header div div ul li a {
+  color:#725a2b;
+  display:block;
+  font-size:14px;
+  height:24px;
+  line-height:24px;
+  padding:0 2px 0 0;
+  text-decoration:none;
+}
+.header div div ul li a span {
+  display:block;
+  padding:0 22px;
+}
+.header div div ul li.selected a span {
+  background:url(../images/bg-nav-mid.jpg) repeat-x left top;
+}
+.header div div ul li.selected a {
+  background:url(../images/bg-nav-right.jpg) no-repeat right top;
+  color:#164372;
+  text-shadow:0 1px 0 #fff;
+}
+.header div div ul li a:hover {
+  color:#164372;
+  text-shadow:0 1px 0 #fff;
+}
+.header div div form {
+  float:left;
+  margin:0 0 0 36px;
+  overflow:hidden;
+  padding:12px 0 0;
+}
+.header div div form input:first-child {
+  background:url(../images/bg-search.jpg) no-repeat;
+  border:0;
+  color:#ebcc90;
+  float:left;
+  font-family:inherit;
+  font-size:12px;
+  height:22px;
+  line-height:21px;
+  margin:0 12px 0 0;
+  padding:2px 5px 0;
+  width:158px;
+  cursor:text;
+}
+.header div div form input:first-child:hover {
+  background:url(../images/bg-search.jpg) no-repeat;
+}
+.header div div form input {
+  background:url(../images/buttons.png) no-repeat;
+  border:0;
+  cursor:pointer;
+  float:left;
+  height:24px;
+  padding:0;
+  width:72px;
+}
+.header div div form input:hover {
+  background:url(../images/buttons.png) no-repeat 0 -134px;
+}
 
+/*------------------------- Footer -------------------------*/
+.footer {
+  
+  padding:0 0 16px;
+}
+.contactfooter{
+  width:960px;
+  margin:-80px auto;
+}
+.footer div {
+  
+  padding:0 0 8px;
+}
+.footer div div {
+  background:none #fff;
+  height:47px;
+  padding:0;
+}
+.footer div div ul {
+  float:left;
+  list-style:none;
+  margin:10px 135px 0 35px;
+  overflow:hidden;
+  padding:0;
+}
+.footer div div ul li:first-child {
+  background:none;
+  margin:0;
+  padding:0 8px 0 0;
+}
+.footer div div ul li {
+  background:url(../images/border-footer-nav.png) no-repeat left 8px;
+  float:left;
+  padding:0 8px;
+}
+.footer div div ul li a {
+  color:#246ea5;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size:12px;
+  text-decoration:none;
+}
+.footer div div ul li a:hover {
+  text-decoration:none;
+}
+.footer div div p {
+  color:#a9b1b9;
+  float:left;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size:10px;
+  line-height:16px;
+  margin:15px 0 0;
+}
+
+.copyright
+{
+  padding-left: 20%;
+}
+
+.footer div div div.connect {
+  float:left;
+  height:auto;
+  margin:13px 0 0 65px;
+  overflow:hidden;
+}
+.footer div div div.connect a#twitter {
+  background:url(../images/icons.png) no-repeat;
+  display:block;
+  float:left;
+  height:18px;
+  text-indent:-99999px;
+  width:23px;
+}
+.footer div div div.connect a#fb {
+  background:url(../images/icons.png) no-repeat 0 -19px;
+  display:block;
+  float:left;
+  height:19px;
+  margin:0 37px 0 44px;
+  text-indent:-99999px;
+  width:19px;
+}
+.footer div div div.connect a#googleplus {
+  background:url(../images/icons.png) no-repeat 0 -59px;
+  display:block;
+  float:left;
+  height:19px;
+  margin:0 37px 0 44px;
+  text-indent:-99999px;
+  width:19px;
+}
+.footer div div div.connect a#vimeo {
+  background:url(../images/icons.png) no-repeat 0 -39px;
+  display:block;
+  float:left;
+  height:19px;
+  text-indent:-99999px;
+  width:22px;
+}
+
+.map{
+  box-shadow:none;
+  max-width:100%;
+  margin-left:80px;
+}
+
+/* "Form" Template */
 body
 {
   background:url(../images/bg-body.jpg);
@@ -123,8 +353,18 @@ transition:background-color .5s ease;
 background:#5C8CA7;
 }
 
+.center
+{
+  text-align: center;
+}
 
-.parsley-error-list{
+a:visited
+{
+  color: black;
+}
+
+.parsley-error-list
+{
 background-color:#C34343;
 padding: 5px 11px;
 margin: 0;
@@ -155,5 +395,3 @@ margin-top:-5px;
 ::-moz-focus-inner {
   border: 0;
 }
-
-/*Insert stylesheet "style.css"?*/

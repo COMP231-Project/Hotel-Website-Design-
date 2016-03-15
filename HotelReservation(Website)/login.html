@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Sign Up - Hotel Website</title>
+  <title>Login - Hotel Website</title>
   <link rel="stylesheet" href="css/form.css" type="text/css">
 </head>
 <link rel="stylesheet" href="css/form.css" type="text/css">
@@ -45,25 +45,21 @@
 <!--Form-->
 <div id="registration-form">
   <div class='fieldset'>
-    <legend>Register Form</legend>
+    <legend>Login!</legend>
     <form action="#" method="post" data-validate="parsley">
       <div class='row'>
-        <label for='firstname'>First Name</label>
-        <input type="text" placeholder="First Name" name='firstname' id='firstname' data-required="true" data-error-message="Your First Name is required">
+        <label for='username'>User Name</label>
+        <input type="text" placeholder="User Name" name='username' id='username' data-required="true" data-error-message="Your User Name is required">
       </div>
       <div class='row'>
-        <label for='firstname'>Last Name</label>
-        <input type="text" placeholder="Last Name" name='lastname' id='lastname' data-required="true" data-error-message="Your Last Name is required">
-      </div>
-      <div class='row'>
-        <label for="email">E-mail</label>
-        <input type="text" placeholder="E-mail"  name='email' data-required="true" data-type="email" data-error-message="Your E-mail is required">
-      </div>
-      <div class='row'>
-        <label for="password">Password</label>
+        <label for="cemail">Password</label>
         <input type="text" placeholder="Password" name='password' data-required="true" data-error-message="Your Password is required">
       </div>
-        <input type="submit" value="Register">
+      <div class ='center'>
+      <a href="register.html">
+        <label>Register here if you don't have an account</label>
+      </a>
+      <input type="submit" value="Register">
     </form>
   </div>
 </div>

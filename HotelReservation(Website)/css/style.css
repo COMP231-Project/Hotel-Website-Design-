@@ -701,6 +701,12 @@ a img {
 	line-height:16px;
 	margin:15px 0 0;
 }
+
+.copyright
+{
+	padding-left: 20%;
+}
+
 .footer div div div.connect {
 	float:left;
 	height:auto;
@@ -752,7 +758,7 @@ iframe{
 	width:90%;
 }
 
-/*  Contact form*/
+/*Forms*/
 .row {
   width: 100%;
   margin: 0 0 1em 0;
