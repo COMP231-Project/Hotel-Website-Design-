@@ -1,30 +1,29 @@
-/* BTW alt-shift will pop a color picker 
-  example color: followed  by alt shift will pop it
-*/
-/*
-Hide the label if placeholder is supported
-*/
+/*Templates manipulated by Faim and Maulik*/
 
-body{
-  background:#b4b4b4;
+body
+{
+  background:url(../images/bg-body.jpg);
 }
 
-#registration-form {
+#registration-form 
+{
   font-family:'Open Sans Condensed', sans-serif;
-  width: 400px;
+  width: 35%;
   min-width:250px;
   margin: 20px auto;
   position: relative;
 }
 
-#registration-form .fieldset {
+#registration-form .fieldset 
+{
   background-color:#d5d5d5;
 
   border-radius: 3px;
   
 }
 
- #registration-form legend {
+ #registration-form legend 
+{
   text-align: center;
   background: #364351;
   width: 100%;
@@ -156,3 +155,5 @@ margin-top:-5px;
 ::-moz-focus-inner {
   border: 0;
 }
+
+/*Insert stylesheet "style.css"?*/
