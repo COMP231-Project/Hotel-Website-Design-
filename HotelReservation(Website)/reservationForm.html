@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Sign Up - Hotel Website</title>
+  <title>Reservation Form - Hotel Website</title>
   <link rel="stylesheet" href="css/form.css" type="text/css">
 </head>
 <link rel="stylesheet" href="css/form.css" type="text/css">
@@ -45,23 +45,37 @@
 <!--Form-->
 <div id="registration-form">
   <div class='fieldset'>
-    <legend>Register Form</legend>
+    <legend>Reservation Form</legend>
     <form action="#" method="post" data-validate="parsley">
       <div class='row'>
-        <label for='firstname'>First Name</label>
-        <input type="text" placeholder="First Name" name='firstname' id='firstname' data-required="true" data-error-message="Your First Name is required">
+        <label for='roomnumber'>Room Number</label>
+        <input type="text" placeholder="ie. 101" name='roomNumber' id='roomNumber' data-required="true" data-error-message="Your Room Number is required">
       </div>
       <div class='row'>
-        <label for='firstname'>Last Name</label>
-        <input type="text" placeholder="Last Name" name='lastname' id='lastname' data-required="true" data-error-message="Your Last Name is required">
+        <label for='roominfo1'>Room Info</label>
+        <input type="text" placeholder="ie. blah blah blah" name='roomInfo1' id='lastname' data-required="true" data-error-message="Your Room Info is required">
       </div>
       <div class='row'>
-        <label for="email">E-mail</label>
-        <input type="text" placeholder="E-mail"  name='email' data-required="true" data-type="email" data-error-message="Your E-mail is required">
+        <label for="roominfo2">Room Info</label>
+        <input type="text" placeholder="ie. blah blah blah"  name='roomInfo2' id='lastname' data-required="true" data-error-message="Your Room Info is required">
+      </div>
+  <h3 style="text-align:center">Customer Info</h3>
+      <div class='row'>
+        <label for="customerinfo">Customer Info</label>
+        <input type="text" placeholder="blahblahblah"  name='customerInfo' data-required="true" data-type="email" data-error-message="Your Info is required">
       </div>
       <div class='row'>
-        <label for="password">Password</label>
-        <input type="text" placeholder="Password" name='password' data-required="true" data-error-message="Your Password is required">
+        <label for="customerinfo">Customer Info</label>
+        <input type="text" placeholder="blahblahblah"  name='customerInfo' data-required="true" data-type="email" data-error-message="Your Info is required">
+      </div>
+      <div class='row'>
+        <label for="customerinfo">Customer Info</label>
+        <input type="text" placeholder="blahblahblah"  name='customerInfo' data-required="true" data-type="email" data-error-message="Your Info is required">
+      </div>
+      <div class='row'>
+        <label for="customerinfo">Customer Info</label>
+        <input type="text" placeholder="blahblahblah"  name='customerInfo' data-required="true" data-type="email" data-error-message="Your Info is required">
+      </div>
       </div>
         <input type="submit" value="Register">
     </form>
