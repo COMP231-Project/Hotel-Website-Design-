@@ -896,3 +896,107 @@ form small {
     display: none;
   }
 }
+
+.floor{
+	width:100%;
+	position:relative;
+	top:120px;
+	right:200px;
+}
+.floor-row{
+	
+}
+.cell{
+	
+	height:100px;
+	width:200px;
+	background-color:red;
+}
+
+.blank{
+	
+	
+	height:100px;
+	width:100px;
+	background-color:transparent;
+	
+}
+.available{
+	
+	height:10px;
+	width:20px;
+	background-color:green;
+	
+}
+
+.key{
+	
+	position:relative;
+	top:200px;
+}
+
+.booked{
+	
+	height:10px;
+	width:20px;
+	background-color:red;
+}
+.search_button{
+	float:right;
+	margin-top:30px;
+	padding:5px 20px;
+	margin-right:20px;
+	border-radius:3px;
+	background:steelblue;
+	color:white;
+	outline:none;
+
+}
+
+.buttons-div{
+	padding:30px;
+}
+
+.search_div{
+	background:white;
+	padding:20px;
+}
+
+.floor_planbutton{
+	float:right;
+	padding:5px 20px;
+	margin-right:20px;
+	border-radius:3px;
+	background:steelblue;
+	color:white;
+	outline:none;
+	margin-top:30px;
+}
+
+.search-div{
+	margin-bottom:30px;
+}
+.search-div2{
+	
+	border:1px solid gray;
+	border-top:2px solid gray;
+	padding:20px;
+}
+
+.search-div2 > h2{
+	margin-top:30px;
+	display:inline-block;
+}
+
+.reg-form{
+	
+	color:black;
+	
+	text-decoration:
+}
+
+.reg-form input{
+	
+	padding:15px 40px;
+	
+}

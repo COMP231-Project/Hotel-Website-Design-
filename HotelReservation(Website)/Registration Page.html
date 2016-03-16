@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Contact - Island Hotel Website Template</title>
+	<title>Registration</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="formvalidate.js"></script>
 </head>
 <body>
+
 	<div class="page">
 		<div class="header">
 			<a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
@@ -34,47 +37,27 @@
 		</div>
 		<div class="body">
 			<div class="contact">
-				<h2>Contact Us!</h2>
+				<h2>Registration Form<h2>
 			
-					<div class="map">
-						  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2880.428925072312!2d-79.227752!3d43.784712!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d0f0ff720959%3A0x7ad47fd8d329bae!2sCentennial+College!5e0!3m2!1sen!2s!4v1407140481680" width="600" height="450" frameborder="0" style="border:0"></iframe>
+					
+					<div class="row-body">
+					
+						<div class="reg-form">
+								<label>First Name</label><br>
+								<input class="fname" type="text" name="fname" required /><br><br>
+								<label>Last Name</label><br>
+								<input class="lname" type="text" name="lname" required /><br><br>
+								<label>Email</label><br>
+								<input id="email" type="text" name="email" required /><br><br>
+								<label>Username</label><br>
+								<input id="uname" type="text" name="uname" required /><br><br>
+								<label>Password</label><br>
+								<input id="Password1" type="password" name="pass" required  /><br><br>
+								<input class="submit" onclick="validateForm()" type="submit"  value="Submit"/>
+						</div>
+    
 					</div>
-					<div class="row body">
-    <form action="#">
-      <ul>
-        
-        <li>
-          <p class="left">
-            <label for="first_name">First name</label>
-            <input type="text" name="first_name" placeholder="" />
-          </p>
-          <p class="pull-right">
-            <label for="last_name">Last name</label>
-            <input type="text" name="last_name" placeholder="" />      
-          </p>
-        </li>
-        
-        <li>
-          <p>
-            <label for="email">Email <span class="req"></label>
-            <input type="email" name="email" placeholder="" />
-          </p>
-        </li>        
-        <li><div class="divider"></div></li>
-        <li>
-          <label for="comments">Comments</label>
-          <textarea cols="46" rows="3" name="comments"></textarea>
-        </li>
-        
-        <li>
-          <input class="btn btn-submit" type="submit" value="Submit" />
-          
-        </li>
-        
-      </ul>
-    </form>  
-  </div>
-</div>
+				</div>
              </div>
 		</div>
 		<div class="contactfooter footer">
